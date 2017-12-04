@@ -20,7 +20,7 @@ As for implementation, this program implements count-min sketch(https://sites.go
 
 Another hightlight is the controller-features structure of the whole analysis program. Basically, there is a single controller taking care of the input and output path. And there are bunches of features each of them providing a specific metric. Each time you can choose to subscribe different features to the controller, run the controller, and then get the metrics corresponding to the features. 
 
-This project was created for a coding challenge in Insight Data Engineering program. The insight_testsuite subfolder is provided by Insight Data Enigneeering program. There are sample inputs in the log_input folder and sample outpus in the log_output folder. 
+This project was created for a coding challenge in Insight Data Engineering program. 
 
 ### Installing 
 
@@ -48,4 +48,4 @@ The controller-features structure is modified based on http://www.tldp.org/LDP/L
  
 The hash function generation in CM_sketch is modified based on https://tech.shareaholic.com/2012/12/03/the-count-min-sketch-how-to-count-over-large-keyspaces-when-about-right-is-good-enough/
 
-The description of the features is modified based on the project description page from Insight Data Science: https://github.com/InsightDataScience/fansite-analytics-challenge
+The description of the features is modified based on the project description page from Insight Data Science. The insight_testsuite subfolder is provided by Insight Data Enigneeering program. There are sample inputs in the log_input folder and sample outpus in the log_output folder.(https://github.com/InsightDataScience/fansite-analytics-challenge)
